@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+ .search {
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .search.active {
+      border-color: #007bff;
+    }
+
+    .input {
+      padding: 5px;
+      margin-right: 5px;
+    }
+
+    .btn {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
